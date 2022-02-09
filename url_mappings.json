@@ -1,0 +1,150 @@
+{
+    "summary": {
+        "controller": "Summary",
+        "method": "loadModule"
+    },
+    
+
+    "materials": {
+        "controller": "Materials",
+        "method": "loadModule"
+    },
+    "materials/new": {
+        "controller": "Materials",
+        "method": "newDefinition"
+    },
+    "materials/:id/update": {
+        "controller": "Materials",
+        "method": "updateDefinition",
+        "params": {
+            "id": "number"
+        }
+    },
+    "materials/:id/add": {
+        "controller": "Materials",
+        "method": "increaseQuantity",
+        "params": {
+            "id": "number"
+        }
+    },
+    "materials/:id/delete": {
+        "controller": "Materials",
+        "method": "deleteItem",
+        "params": {
+            "id": "number"
+        }
+    },
+    
+
+    "biscuits": {
+        "controller": "Biscuits",
+        "method": "loadModule"
+    },
+    "biscuits/new": {
+        "controller": "Biscuits",
+        "method": "newDefinition"
+    },
+    "biscuits/:id/update": {
+        "controller": "Biscuits",
+        "method": "updateDefinition",
+        "params": {
+            "id": "number"
+        }
+    },
+    "biscuits/:id/add": {
+        "controller": "Biscuits",
+        "method": "increaseQuantity",
+        "params": {
+            "id": "number"
+        }
+    },
+    "biscuits/:id/delete": {
+        "controller": "Biscuits",
+        "method": "deleteItem",
+        "params": {
+            "id": "number"
+        }
+    },
+    
+
+    "incompletes": {
+        "controller": "Incompletes",
+        "method": "loadModule"
+    },
+    "incompletes/new": {
+        "controller": "Incompletes",
+        "method": "newDefinition"
+    },
+    "incompletes/:id/update": {
+        "controller": "Incompletes",
+        "method": "updateDefinition",
+        "params": {
+            "id": "number"
+        }
+    },
+    "incompletes/:id/add": {
+        "controller": "Incompletes",
+        "method": "increaseQuantity",
+        "params": {
+            "id": "number"
+        }
+    },
+    "incompletes/:id/delete": {
+        "controller": "Incompletes",
+        "method": "deleteItem",
+        "params": {
+            "id": "number"
+        }
+    },
+    
+
+    "products": {
+        "controller": "Products",
+        "method": "loadModule"
+    },
+    "products/new": {
+        "controller": "Products",
+        "method": "newDefinition"
+    },
+    "products/:id/update": {
+        "controller": "Products",
+        "method": "updateDefinition",
+        "params": {
+            "id": "number"
+        }
+    },
+    "products/:id/add": {
+        "controller": "Products",
+        "method": "increaseQuantity",
+        "params": {
+            "id": "number"
+        }
+    },
+    "products/:id/delete": {
+        "controller": "Products",
+        "method": "deleteItem",
+        "params": {
+            "id": "number"
+        }
+    },
+    
+
+    "fact": {
+        "controller": "Factureds",
+        "method": "loadModule"
+    },
+    "fact/:id/add": {
+        "controller": "Factureds",
+        "method": "increaseQuantity",
+        "params": {
+            "id": "number"
+        }
+    },
+    
+
+    "overviews": {
+        "controller": "Overviews",
+        "method": "loadModule"
+    }
+
+}
