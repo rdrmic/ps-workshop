@@ -1,0 +1,273 @@
+.form-style-1 {
+    /*margin:10px auto;*/
+    margin: 10px;
+    /*max-width: 400px;*/
+    /*padding: 20px 12px 10px 20px;*/
+    padding: 5px;
+    /*font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;*/
+    font-size: .95em;
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #333;
+}
+.form-style-1 li {
+    padding: 0;
+    display: block;
+    list-style: none;
+    /*margin: 10px 0 0 0;*/
+    margin: 0 0 6px 0;
+}
+
+.form-style-1 label {
+    margin: 0 0 3px 0;
+    padding: 0px;
+    display: block;
+    font-weight: bold;
+}
+
+.form-style-1 input[type=text],
+.form-style-1 input[type=date],
+.form-style-1 input[type=datetime],
+.form-style-1 input[type=number],
+.form-style-1 input[type=search],
+.form-style-1 input[type=time],
+.form-style-1 input[type=url],
+.form-style-1 input[type=email],
+.form-style-1 input[type=password],
+textarea,
+select{
+    /*
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    */
+    /*border:1px solid #BEBEBE;*/
+    /*padding: 7px;*/
+    padding: 3px;
+    margin:0px;
+    /*
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    */
+    outline: none;
+}
+/*.form-style-1 input[type=text]:focus,
+.form-style-1 input[type=date]:focus,
+.form-style-1 input[type=datetime]:focus,
+.form-style-1 input[type=number]:focus,
+.form-style-1 input[type=search]:focus,
+.form-style-1 input[type=time]:focus,
+.form-style-1 input[type=url]:focus,
+.form-style-1 input[type=email]:focus,
+.form-style-1 input[type=password]:focus,
+.form-style-1 textarea:focus,
+.form-style-1 select:focus{
+    -moz-box-shadow: 0 0 8px #88D5E9;
+    -webkit-box-shadow: 0 0 8px #88D5E9;
+    box-shadow: 0 0 8px #88D5E9;
+    border: 1px solid #88D5E9;
+}*/
+
+
+
+.form-style-1 .right-align {
+    text-align: right;
+}
+
+.form-style-1 .field-short {
+    width: 50px;
+}
+.form-style-1 .field-middle {
+    width: 150px;
+}
+.form-style-1 .field-long {
+    width: 350px;
+}
+
+.form-style-1 .field-textarea{
+    width: 350px;
+}
+
+.form-style-1 .field-select{
+    width: 375px;
+    margin-bottom: 3px;
+}
+
+
+.readonly {
+    font-style: italic;
+}
+.form-style-1 input.readonly {
+    background-color: #e9e9e9;
+}
+
+
+.form-style-1 input[type=submit].disabled, .form-style-1 input[type=submit].disabled:hover {
+    background-color: #aaa;
+    font-style: italic;
+    cursor: default;
+}
+
+
+.form-style-1 .not-required {
+    color: #51B7E6;
+}
+
+
+
+/*.form-style-1 input[type=submit], .form-style-1 input[type=button]{*/
+.form-style-1 input[type=submit], .form-style-1 input[type=button] {
+    /*background: #4B99AD;*/
+    background-color: #ff8500;
+    /*padding: 8px 15px 8px 15px;*/
+    margin: 5px 0 0 0;
+    padding: 4px 9px;
+    border: none;
+    color: #fff;
+}
+
+.button-orange, .button-red, .button-gray {
+    margin: 0;
+    padding: 4px 9px;
+    border: none;
+    color: #fff;
+}
+
+.button-orange {
+    background-color: #ff8500;
+}
+
+.button-red {
+    background-color: #FF4E32;
+}
+
+.button-gray {
+    background-color: #acacac;
+    outline: none;
+    padding: 3px 8px;
+}
+
+/* TODO refactor*/
+.button-app-reset {
+    font-style: italic;
+}
+
+
+.submit-in-list {
+    padding-top: 3px;
+}
+
+
+.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover, .button-orange:hover, .button-red:hover {
+    /*background: #4691A4;*/
+    background: #ea7b00;
+    box-shadow:none;
+    cursor: pointer;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+}
+.button-orange:hover {
+    background: #ea7b00;
+}
+.button-red:hover {
+    background: #ED3D07;
+}
+
+td button.button-orange {
+    padding: 3px 8px 2px 8px;
+    background-color: #ff8500;
+    /*background-color: #ea7b00;*/
+}
+td button.button-orange:hover {
+    background-color: #ea7b00;
+   /*background-color: #ff8500;*/
+}
+
+.form-style-1 li.button-bar input[type=submit] {
+    margin-right: 6px;
+}
+.button-orange-calculate {
+    margin-right: 40px;
+}
+
+
+
+
+.form-style-1 li div.building-items-selections {
+    /*background-color: green;*/
+    width: 100%;
+}
+
+
+.form-style-1 li div.building-items-selections-list {
+    /*background-color: pink;*/
+    width: 100%;
+}
+
+.form-style-1 li div.building-items-selections-list table {
+    border-collapse: collapse;
+}
+
+.form-style-1 li div.building-items-selections-list td {
+    border: none;
+    /*margin: 0;*/
+    padding-left: 0;
+    font-size: 1.1em;
+    /*font-style: italic;*/
+}
+
+.form-style-1 li div.building-items-selections-list td.item-quantity-used {
+    font-size: 1.05em;
+    font-weight: bold;
+    /*font-style: normal;*/
+}
+
+.form-style-1 li div.building-items-selections-list td.item-quantity-available {
+    color: green;
+}
+
+.form-style-1 li div.building-items-selections-list td.item-quantity-not-available {
+    color: red;
+    /*font-weight: bold;*/
+}
+
+
+
+.link-to-details {
+    color: #ff8500;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 2px;
+}
+
+.link-to-details:hover {
+    color: #ea7b00;
+}
+
+
+
+.form-style-1 li input[type=text],
+.form-style-1 li input[type=password],
+.form-style-1 li input[type=date]
+/*.form-style-1 li textarea,
+.form-style-1 li select*/
+{
+    border-width: 1px;
+}
+
+ul li input.err_mark {
+    border: 1px solid #FF3633;
+}
+
+ul li label.err_mark {
+    color: #FF3633;
+}
+
+.err_msg_to_user {
+    color: #FF3633;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}

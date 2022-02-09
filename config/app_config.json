@@ -1,0 +1,30 @@
+{
+    "app-version": {
+        "version":                  "1.0.0",
+        "date":                     "19.04.2018, 11:45"
+    },
+    
+    
+    "environment":                  "prod",
+    
+    "display_errors-dev":           1,
+    "display_errors-prod":          0,
+
+    "db-dev": {
+        "dsn":                      "mysql:host=127.0.0.1;port=3306;dbname=zajednic_psw;charset=utf8",
+        "user":                     "root",
+        "pass":                     ""
+    },
+    "db-prod": {
+        "dsn":                      "mysql:host=127.0.0.1;port=3306;dbname=zajednic_psw;charset=utf8",
+        "user":                     "zajednic_psw-app",
+        "pass":                     "k9geStr)?x9L"
+    },
+    
+    "urlbase-dev":                  "http://localhost/psw/",
+    "urlbase-prod":                 "http://www.pontes-salutis-radionica.zajednicacenacolo.hr/",
+    
+    
+    "start-route":                  "summary",
+    "piece-unit":                   "Kom"
+}
